@@ -17,7 +17,7 @@ Install:
 
 .. code:: bash
 
-    $ curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
+    $ curl -L https://github.com/silvadev/pyenv-installer/raw/master/bin/pyenv-installer | bash
 
 Update:
 

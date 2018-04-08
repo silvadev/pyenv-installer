@@ -40,8 +40,12 @@ checkout "${GITHUB}/pyenv/pyenv.git"            "${PYENV_ROOT}"
 checkout "${GITHUB}/pyenv/pyenv-doctor.git"     "${PYENV_ROOT}/plugins/pyenv-doctor"
 checkout "${GITHUB}/pyenv/pyenv-installer.git"  "${PYENV_ROOT}/plugins/pyenv-installer"
 checkout "${GITHUB}/pyenv/pyenv-update.git"     "${PYENV_ROOT}/plugins/pyenv-update"
-checkout "${GITHUB}/pyenv/pyenv-virtualenv.git" "${PYENV_ROOT}/plugins/pyenv-virtualenv"
+#checkout "${GITHUB}/pyenv/pyenv-virtualenv.git" "${PYENV_ROOT}/plugins/pyenv-virtualenv"
 checkout "${GITHUB}/pyenv/pyenv-which-ext.git"  "${PYENV_ROOT}/plugins/pyenv-which-ext"
+checkout "${GITHUB}/pyenv/pyenv-virtualenvwrapper.git" "${PYENV_ROOT}/plugins/pyenv-virtualenvwrapper"
+checkout "${GITHUB}/pyenv/pyenv-ccache.git"            "${PYENV_ROOT}/plugins/pyenv-ccache"
+checkout "${GITHUB}/pyenv/pyenv-pip-rehash.git"        "${PYENV_ROOT}/plugins/pyenv-pip-rehash"
+checkout "${GITHUB}/pyenv/pyenv-pip-migrate.git"       "${PYENV_ROOT}/plugins/pyenv-pip-migrate"
 
 if ! command -v pyenv 1>/dev/null; then
   { echo
