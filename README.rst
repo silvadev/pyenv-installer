@@ -1,12 +1,12 @@
 pyenv installer
 ===============
 
-This tool installs ``pyenv`` and friends. It is inspired by `rbenv-installer <https://github.com/fesplugas/rbenv-installer>`__.
+This tool installs `pyenv <https://github.com/pyenv/pyenv>`__ and friends. It is inspired by `rbenv-installer <https://github.com/rbenv/rbenv-installer>`__.
 
 Installation / Update / Uninstallation
 --------------------------------------
 
-There are two ways to install `pyenv <https://github.com/yyuu/pyenv>`__.
+There are two ways to install pyenv.
 The PyPi support is not tested by many users yet, so the
 direct way is still recommended if you want to play it safe.
 
@@ -17,7 +17,7 @@ Install:
 
 .. code:: bash
 
-    $ curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
+    $ curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
 
 Update:
 
@@ -40,7 +40,7 @@ and remove these three lines from ``.bashrc``:
     eval "$(pyenv init -)"
     eval "$(pyenv virtualenv-init -)"
 
-If you need, export USE_GIT_URI to use git:// instad of https// for git clone.
+If you need, export USE_GIT_URI to use git:// instead of https:// for git clone.
 
 PyPi way
 ~~~~~~~~
@@ -62,7 +62,7 @@ thin wrapper around the shell install script.
 Development and testing
 -----------------------
 
-The `project on github <https://github.com/yyuu/pyenv-installer>`__ contains
+The `project on github <https://github.com/pyenv/pyenv-installer>`__ contains
 a setup for vagrant to test the installer inside a vagrant managed virtual image.
 
 If you don't know vagrant yet: just `install the latest
